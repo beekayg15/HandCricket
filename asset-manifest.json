@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HandCricket/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/HandCricket/static/js/main.9f9b0479.chunk.js",
+    "main.js.map": "/HandCricket/static/js/main.9f9b0479.chunk.js.map",
+    "runtime-main.js": "/HandCricket/static/js/runtime-main.5dca4936.js",
+    "runtime-main.js.map": "/HandCricket/static/js/runtime-main.5dca4936.js.map",
+    "static/js/2.6632a4bd.chunk.js": "/HandCricket/static/js/2.6632a4bd.chunk.js",
+    "static/js/2.6632a4bd.chunk.js.map": "/HandCricket/static/js/2.6632a4bd.chunk.js.map",
+    "static/js/3.80dfe743.chunk.js": "/HandCricket/static/js/3.80dfe743.chunk.js",
+    "static/js/3.80dfe743.chunk.js.map": "/HandCricket/static/js/3.80dfe743.chunk.js.map",
+    "index.html": "/HandCricket/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/HandCricket/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.6632a4bd.chunk.js.LICENSE.txt": "/HandCricket/static/js/2.6632a4bd.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/HandCricket/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5dca4936.js",
+    "static/js/2.6632a4bd.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.9f9b0479.chunk.js"
+  ]
+}
