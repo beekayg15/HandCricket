@@ -78,12 +78,17 @@ The Webpage contains **multiple pages** that represent various phases of the gam
 ### Screenshots of the WebPage :
 
 #### Home Page
-<img width="900" alt="home1" src="https://user-images.githubusercontent.com/66675130/105459190-d1927280-5caf-11eb-9f10-55bbec0e4c8c.png">
+<img width="900" alt="elect1" src="https://user-images.githubusercontent.com/66675130/105609060-a782a280-5dcc-11eb-81be-21a443b11372.png">
 
-#### Instructions
-<img width="900" alt="instruction1" src="https://user-images.githubusercontent.com/66675130/105459239-e969f680-5caf-11eb-8e64-88b80a544bde.png">
+#### Election
+<img width="900" alt="home1" src="https://user-images.githubusercontent.com/66675130/105609071-bcf7cc80-5dcc-11eb-83c6-b1a167e9faaa.png">
 
 #### Gameplay
-<img width="900" alt="gp1" src="https://user-images.githubusercontent.com/66675130/105459124-b6bffe00-5caf-11eb-974a-46c24671e8b2.png">
-<img width="900" alt="gp2" src="https://user-images.githubusercontent.com/66675130/105458955-72346280-5caf-11eb-91c3-7be093e35d3b.png">
+<img width="900" alt="game1" src="https://user-images.githubusercontent.com/66675130/105609004-5672ae80-5dcc-11eb-994d-88cb2da6529c.png">
+<img width="900" alt="game2" src="https://user-images.githubusercontent.com/66675130/105609018-7609d700-5dcc-11eb-9fe4-ecacd54dea47.png">
+<img width="900" alt="game3" src="https://user-images.githubusercontent.com/66675130/105609033-8ae66a80-5dcc-11eb-9a33-1ea10913c060.png">
+
+#### Result
+<img width="900" alt="result1" src="https://user-images.githubusercontent.com/66675130/105608971-34792c00-5dcc-11eb-90d0-059c0690692d.png">
+
 
