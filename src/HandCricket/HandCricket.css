@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Bold'), 
+         local('Roboto-Bold'), 
+         url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+         format('woff');
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: black;
+    color: orange;
+}
+
+.p{
+    font-style: italic;
+    font-size: 2em;
+    width: 33vw;
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: orange;
+    color: orange;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.k{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 20px;
+    padding: 4vw;
+    color: black;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    display: inline-block;
+}
+.k:hover{
+    transition-duration: .5s;
+    color:white;
+    background-color: red;
+    border-radius: 40px;
+}
+
+#defend{
+    color: orange;
+    background-color: black;
+    display: none;
+}
+
+#chase{
+    color: orange;
+    background-color: black;
+    display: none;
+}
+
+.choice{
+    font-style: italic;
+    font-size: 2em;
+    width: 33vw;
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: orange;
+    color: orange;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#surface{
+    color: orange;
+}
+
+#gamePlay{
+    display: none;
+}
+
+.Coin{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 20px;
+    padding: 4vw;
+    color: black;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    display: inline-block;
+}
+.Coin:hover{
+    transition-duration: .5s;
+    color:white;
+    background-color: red;
+    border-radius: 40px;
+}
+
+#startgame{
+    display: none;
+}
+
+#startgamebowl{
+    display: none;
+}
+
+#startgamebat{
+    display: none;
+}
+
+.Coins{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 20px;
+    padding: 4vw;
+    color: black;
+    background-color: orange;
+    border: none;
+    border-radius: 150px;
+    outline: none;
+    display: inline-block;
+}
+.Coins:hover{
+    transition-duration: .5s;
+    color:white;
+    background-color: red;
+}
+
+#defendloss{
+    font-size: 1.6em;
+    display: none;
+}
+
+#defendwin{
+    font-size: 1.6em;
+    display: none;
+}
+
+#chasewin{
+    font-size: 1.6em;
+    display: none;
+}
+
+#chaseloss{
+    font-size: 1.6em;
+    display: none;
+}
+
+#tie{
+    font-size: 1.6em;
+    display: none;
+}
+
+#OUT{
+    font-size: 1.6em;
+    display: none;
+}
+
+#continue{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 20px;
+    padding: 4vw;
+    color: black;
+    background-color: orange;
+    border: none;
+    border-radius: 150px;
+    outline: none;
+    display: inline-block;
+}
+#continue:hover{
+    transition-duration: .5s;
+    color:white;
+    background-color: red;
+}
+
+.NG{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 20px;
+    padding: 4vw;
+    color: black;
+    background-color: orange;
+    border: none;
+    border-radius: 150px;
+    outline: none;
+    display: inline-block;
+}
+.NG:hover{
+    transition-duration: .5s;
+    color:white;
+    background-color: red;
+}
+
+#head{
+    font-size: 2.5em;
+}
