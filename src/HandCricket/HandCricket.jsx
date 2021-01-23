@@ -117,7 +117,7 @@ export default class HandCricket extends React.Component
         }
         else
         {
-            comp[0]=comp[0]+c;
+            comp[0]=comp[0]+co;
         }
         this.setState({player,comp,fb,finish});
     }
@@ -151,7 +151,7 @@ export default class HandCricket extends React.Component
         }
         else
         {
-            comp[0]+=c;
+            comp[0]+=co;
             if(comp[0]>player[0])
             {
                 const y=document.getElementById('gamePlay');
