@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HandCricket/static/css/main.7b35c419.chunk.css",
-    "main.js": "/HandCricket/static/js/main.dbd50683.chunk.js",
-    "main.js.map": "/HandCricket/static/js/main.dbd50683.chunk.js.map",
+    "main.js": "/HandCricket/static/js/main.f1000d19.chunk.js",
+    "main.js.map": "/HandCricket/static/js/main.f1000d19.chunk.js.map",
     "runtime-main.js": "/HandCricket/static/js/runtime-main.1f3b4de9.js",
     "runtime-main.js.map": "/HandCricket/static/js/runtime-main.1f3b4de9.js.map",
     "static/js/2.94558a6a.chunk.js": "/HandCricket/static/js/2.94558a6a.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.1f3b4de9.js",
     "static/js/2.94558a6a.chunk.js",
     "static/css/main.7b35c419.chunk.css",
-    "static/js/main.dbd50683.chunk.js"
+    "static/js/main.f1000d19.chunk.js"
   ]
 }
