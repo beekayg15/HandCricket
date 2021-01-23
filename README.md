@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Digital Hand Cricket
+Page Deployment Link: https://barathkumarbk-15.github.io/HandCricket
+***
+An **interactive webpage** bringing to life, the digital version of the primitive **Hand Cricket game**, created using `HTML`, `CSS`, `JavaScript`, `NodeJS` and `React`.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tools and Languages Used :
+<p>
+<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg"/>
+<img width="48" height="48" hspace="10" src="https://cdn.worldvectorlogo.com/logos/html5-1.svg"/>
+<img width="48" height="48" hspace="10" src="https://cdn.worldvectorlogo.com/logos/css-5.svg"/>
+<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/javascript-2.svg"/>
+<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/react-2.svg"/>
+<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/nodejs-2.svg"/>
+<img width="45" height="45" hspace="10" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
+<img width="45" height="45" hspace="10" src="https://www.vectorlogo.zone/logos/github/github-icon.svg"/>
+</p>
 
-## Available Scripts
+## Download and Usage :
+The code can be downloaded as a compressed `zip` file from the github web interface.
 
-In the project directory, you can run:
+The repository can also be cloned using:
+```
+git clone https://github.com/BarathKumarBK-15/HandCricket.git
+```
 
-### `npm start`
+The game can be deployed locally after extraction by opening the folder in the terminal and running the code,
+```
+npm start
+```
+The above code opens the webpage on your defaulf browser. The page can also be opened on other browsers by opening the link,
+```
+http://localhost:3000
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Components of Project :
+- **JavaScript XML** files - 1
+- **CSS** files - 1
+- _Note: The above mentioned files are the important additional files added to the default React-App_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About the Webpage :
+The Webpage contains **multiple pages** that represent various phases of the game. Each page is actually a `div` tag being displayed while the other remain **hidden**. The deployment of each page is managed by various `function` of the `class`. The `algorithm` provides a smooth flow to the game, providing a _user friendly interface_. The various components of the program are explained below:
 
-### `npm test`
+- **Home** :
+  - The home page of the game provides a simple layout allowing the user to call for the toss.
+  - Tossing is executed **unbiased** with the help of a modified **random** function.
+  - The decisive call of the user for toss takes the user to further pages using a sequence of **_function calls_** and **conditional statements*.
+  
+- **Election** :
+  - Result of the **unbiased toss** is displayed in a seperate page.
+  - A fair chance is provided for both the computer and the player to win the toss.
+  - The **random** function is brought to use again if the computer wins the toss inorder to choose between **batting** and **bowling**.
+  - On the other hand, the user is allowed to choose between batting and bowling on winning the toss.
+  
+- **GamePlay** :
+  - The gameplay page enables the user to choose numbers between 1 and 6 similar to the _primitive physical version_.
+  - The **scores** of the computer and player are update instantly while **rendering** the page.
+  - The page also displays the previous calls made by the user and the computer to help take a **stochastic decision**.
+  - The **status** of the user and the **target** are also updated to trigger the enthusiasm.
+  
+- **GameOver** :
+  - The game contains multiple terminal pages which will be invoked based on the result.
+  - The game also offer a seperate page which says out, representing the end of the first innings.
+  
+- **Graphical Features** :
+  - The project contains **multiple graphical content** ranging from _bending of borders_ to _styled fonts_ and _eye-soothing layout_.
+  - The `CSS` file checks in all the requisites for empowerment of the graphical interface.
+  
+- **JavaScript** :
+  - The `JavaScript` plays the most significal role, driving the entire game.
+  - The **precise algorithm** of the game manages the flow controlling everything from **function calls** to **page switches** and **score calcutions**.
+  - The `algorithm` is built using simple `conditional statements`,`functions` and `classes`.
+ 
+### Suggested Browsers for Deployment :
+-	Microsoft Edge
+-	Google Chrome
+- Safari
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshots of the WebPage :
 
-### `npm run build`
+#### Home Page
+<img width="900" alt="home1" src="https://user-images.githubusercontent.com/66675130/105459190-d1927280-5caf-11eb-9f10-55bbec0e4c8c.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Instructions
+<img width="900" alt="instruction1" src="https://user-images.githubusercontent.com/66675130/105459239-e969f680-5caf-11eb-8e64-88b80a544bde.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Gameplay
+<img width="900" alt="gp1" src="https://user-images.githubusercontent.com/66675130/105459124-b6bffe00-5caf-11eb-974a-46c24671e8b2.png">
+<img width="900" alt="gp2" src="https://user-images.githubusercontent.com/66675130/105458955-72346280-5caf-11eb-91c3-7be093e35d3b.png">
