@@ -32,12 +32,14 @@ body{
     font-family: 'Roboto';
     font-style: italic;
     font-size: 1.5em;
-    margin: 20px;
-    padding: 4vw;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    margin:25px;
+    border-radius: 50px;
     color: black;
     background-color: orange;
     border: none;
-    border-radius: 10px;
     outline: none;
     display: inline-block;
 }
@@ -45,7 +47,7 @@ body{
     transition-duration: .5s;
     color:white;
     background-color: red;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 #defend{
@@ -85,13 +87,15 @@ body{
 .Coin{
     font-family: 'Roboto';
     font-style: italic;
-    font-size: 1.5em;
-    margin: 20px;
-    padding: 4vw;
+    font-size: 1.3em;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    margin:25px;
+    border-radius: 50px;
     color: black;
     background-color: orange;
     border: none;
-    border-radius: 10px;
     outline: none;
     display: inline-block;
 }
@@ -99,7 +103,7 @@ body{
     transition-duration: .5s;
     color:white;
     background-color: red;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 #startgame{
@@ -117,13 +121,15 @@ body{
 .Coins{
     font-family: 'Roboto';
     font-style: italic;
-    font-size: 1.5em;
-    margin: 20px;
-    padding: 4vw;
+    font-size: 1.3em;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    margin:25px;
     color: black;
     background-color: orange;
     border: none;
-    border-radius: 150px;
+    border-radius: 50px;
     outline: none;
     display: inline-block;
 }
@@ -134,45 +140,47 @@ body{
 }
 
 #defendloss{
-    font-size: 1.6em;
+    font-size: 1.3em;
     display: none;
 }
 
 #defendwin{
-    font-size: 1.6em;
+    font-size: 1.3em;
     display: none;
 }
 
 #chasewin{
-    font-size: 1.6em;
+    font-size: 1.3em;
     display: none;
 }
 
 #chaseloss{
-    font-size: 1.6em;
+    font-size: 1.3em;
     display: none;
 }
 
 #tie{
-    font-size: 1.6em;
+    font-size: 1.3em;
     display: none;
 }
 
 #OUT{
-    font-size: 1.6em;
+    font-size: 1.3em;
     display: none;
 }
 
 #continue{
     font-family: 'Roboto';
     font-style: italic;
-    font-size: 1.5em;
-    margin: 20px;
-    padding: 4vw;
+    font-size: 1.3em;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    margin:25px;
     color: black;
     background-color: orange;
     border: none;
-    border-radius: 150px;
+    border-radius: 50px;
     outline: none;
     display: inline-block;
 }
@@ -185,9 +193,15 @@ body{
 .NG{
     font-family: 'Roboto';
     font-style: italic;
-    font-size: 1.5em;
-    margin: 20px;
-    padding: 4vw;
+    font-size: 1.3em;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    margin:25px;
+    color: black;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
     color: black;
     background-color: orange;
     border: none;
@@ -202,5 +216,13 @@ body{
 }
 
 #head{
-    font-size: 2.5em;
+    background: orange;
+    color: black;
+    height: 50vh;
+    width: 100%;
+    clip-path: polygon(100% 0, 100% 79%, 0 100%, 0 100%, 0 0);
+}
+h1{
+    display: inline-block;
+    margin-top: 15vh;
 }

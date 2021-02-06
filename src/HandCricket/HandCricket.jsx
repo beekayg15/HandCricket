@@ -44,6 +44,8 @@ export default class HandCricket extends React.Component
             z.style.display='inline-block';
             const y=document.getElementById('gamePlay');
             const x=document.getElementById('OUT');
+            const h=document.getElementById('head');
+            h.style.display='inline-block';
             y.style.display='none';
             x.style.display='inline-block';
         }
@@ -70,6 +72,8 @@ export default class HandCricket extends React.Component
             {
                 const y=document.getElementById('gamePlay');
                 const x=document.getElementById('tie');
+                const h=document.getElementById('head');
+                h.style.display='inline-block';
                 y.style.display='none';
                 x.style.display='inline-block';
             }
@@ -77,6 +81,8 @@ export default class HandCricket extends React.Component
             {
                 const y=document.getElementById('gamePlay');
                 const x=document.getElementById('chaseloss');
+                const h=document.getElementById('head');
+                h.style.display='inline-block';
                 y.style.display='none';
                 x.style.display='inline-block';
             }
@@ -88,6 +94,8 @@ export default class HandCricket extends React.Component
             {
                 const y=document.getElementById('gamePlay');
                 const x=document.getElementById('chasewin');
+                const h=document.getElementById('head');
+                h.style.display='inline-block';
                 y.style.display='none';
                 x.style.display='inline-block';
             }
@@ -112,6 +120,8 @@ export default class HandCricket extends React.Component
             z.style.display='inline-block';
             const y=document.getElementById('gamePlay');
             const x=document.getElementById('OUT');
+            const h=document.getElementById('head');
+            h.style.display='inline-block';
             y.style.display='none';
             x.style.display='inline-block';
         }
@@ -138,13 +148,18 @@ export default class HandCricket extends React.Component
             {
                 const y=document.getElementById('gamePlay');
                 const x=document.getElementById('tie');
+                const h=document.getElementById('head');
+                h.style.display='inline-block';
                 y.style.display='none';
                 x.style.display='inline-block';
             }
             else
             {
+                
                 const y=document.getElementById('gamePlay');
                 const x=document.getElementById('defendwin');
+                const h=document.getElementById('head');
+                h.style.display='inline-block';
                 y.style.display='none';
                 x.style.display='inline-block';
             }
@@ -156,6 +171,8 @@ export default class HandCricket extends React.Component
             {
                 const y=document.getElementById('gamePlay');
                 const x=document.getElementById('defendloss');
+                const h=document.getElementById('head');
+                h.style.display='inline-block';
                 y.style.display='none';
                 x.style.display='inline-block';
             }
@@ -227,6 +244,8 @@ export default class HandCricket extends React.Component
         d.style.display='none';
         const e=document.getElementById('startgamebowl');
         e.style.display='none';
+        const h=document.getElementById('head');
+        h.style.display='none';
         const g=document.getElementById('gamePlay');
         g.style.display='inline-block'
         if(x===0)
@@ -252,6 +271,8 @@ export default class HandCricket extends React.Component
     {
         const x=document.getElementById('gamePlay');
         const y=document.getElementById('OUT');
+        const h=document.getElementById('head');
+        h.style.display='none';
         y.style.display='none';
         x.style.display='inline-block';
     }
@@ -261,42 +282,36 @@ export default class HandCricket extends React.Component
         const {player,comp,fb,finish}=this.state;
         return(
             <div id="surface">
-                <h1 id="head">Digital Hand Cricket</h1>
+                <div id="head"><h1>Digital Hand Cricket</h1></div>
                 <div id="toss">
-                <br></br>
                 <h1>Let's Play</h1>
                 <br></br>
-                <br></br>
-                <button className="Coins" onClick={()=>this.toss(0)}>Heads</button>
-                <button className="Coins" onClick={()=>this.toss(1)}>Tails</button>
+                <button className="Coins" onClick={()=>this.toss(0)}>H</button>
+                <button className="Coins" onClick={()=>this.toss(1)}>T</button>
                 </div>
                 <div id="startgame">
-                <br></br>
                 <h1>YOU HAVE WON THE TOSS</h1>
-                <br></br>
                 <br></br>
                 <button className="Coin" onClick={()=>this.bob(0)}>Bat</button>
                 <button className="Coin" onClick={()=>this.bob(1)}>Bowl</button>
                 </div>
                 <div id="startgamebat">
-                <br></br>
                 <h1>THE COMPUTER HAS WON THE TOSS AND ELECTED TO BAT</h1>
                 <br></br>
-                <br></br>
-                <button className="Coin" onClick={()=>this.bob(1)}>CONTINUE</button>
+                <button className="Coin" onClick={()=>this.bob(1)}>GO</button>
                 </div>
                 <div id="startgamebowl">
-                <br></br>
                 <h1>THE COMPUTER HAS WON THE TOSS AND ELECTED TO BOWL</h1>
                 <br></br>
-                <br></br>
-                <button className="Coin" onClick={()=>this.bob(0)}>CONTINUE</button>
+                <button className="Coin" onClick={()=>this.bob(0)}>GO</button>
                 </div>
                 <div id="gamePlay">
                 <div className="p">YOU<br></br>{player[0]}</div>
                 <div className="p">COMPUTER<br></br>{comp[0]}</div>
                 <br></br>
                 <div id="status">Status : </div>
+                <br></br>
+                <br></br>
                 <div id="defend">COMPUTER NEEDS {player[0]-comp[0]+1} RUNS TO WIN</div>
                 <div id="chase">YOU NEED {comp[0]-player[0]+1} RUNS TO WIN</div>
                 <br></br>
@@ -317,7 +332,7 @@ export default class HandCricket extends React.Component
                 YOU HAVE WON THE GAME BY {player[0]-comp[0]} RUNS
                 <br></br>
                 <br></br>
-                <button className="NG" onClick={()=>NG()}>NEW GAME</button>
+                <button className="NG" onClick={()=>NG()}>GO</button>
                 </div>
                 <div id="chasewin">
                 <br></br>
@@ -325,7 +340,7 @@ export default class HandCricket extends React.Component
                 YOU HAVE WON THE GAME
                 <br></br>
                 <br></br>
-                <button className="NG" onClick={()=>NG()}>NEW GAME</button>
+                <button className="NG" onClick={()=>NG()}>GO</button>
                 </div>
                 <div id="defendloss">
                 <br></br>
@@ -333,7 +348,7 @@ export default class HandCricket extends React.Component
                 THE COMPUTER HAS WON THE GAME
                 <br></br>
                 <br></br>
-                <button className="NG" onClick={()=>NG()}>NEW GAME</button>
+                <button className="NG" onClick={()=>NG()}>GO</button>
                 </div>
                 <div id="chaseloss">
                 <br></br>
@@ -341,7 +356,7 @@ export default class HandCricket extends React.Component
                 THE COMPUTER HAS WON THE GAME BY {comp[0]-player[0]} RUNS
                 <br></br>
                 <br></br>
-                <button className="NG" onClick={()=>NG()}>NEW GAME</button>
+                <button className="NG" onClick={()=>NG()}>GO</button>
                 </div>
                 <div id="tie">
                 <br></br>
@@ -349,7 +364,7 @@ export default class HandCricket extends React.Component
                 THE GAME HAS ENDED UP IN A TIE
                 <br></br>
                 <br></br>
-                <button className="NG" onClick={()=>NG()}>NEW GAME</button>
+                <button className="NG" onClick={()=>NG()}>GO</button>
                 </div>
                 <div id="OUT">
                 <br></br>
@@ -357,7 +372,7 @@ export default class HandCricket extends React.Component
                 OUT
                 <br></br>
                 <br></br>
-                <button id="continue" onClick={()=>this.continuegame()}>CONTINUE</button>
+                <button id="continue" onClick={()=>this.continuegame()}>GO</button>
                 </div>
             </div>
         );
