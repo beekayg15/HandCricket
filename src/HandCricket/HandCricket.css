@@ -1,6 +1,5 @@
 @font-face {
     font-family: 'Roboto';
-    font-style: italic;
     font-weight: 400;
     src: local('Roboto Bold'), 
          local('Roboto-Bold'), 
@@ -9,14 +8,13 @@
 }
 
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto' 'Comic Sans MS';
     background-color: black;
     color: orange;
 }
 
 .p{
-    font-style: italic;
-    font-size: 2em;
+    font-size: 1.5em;
     width: 33vw;
     margin: 20px;
     padding: 10px;
@@ -24,13 +22,12 @@ body{
     border-width: 2px;
     border-color: orange;
     color: orange;
-    border-radius: 10px;
+    border-radius: 5px;
     display: inline-block;
 }
 
 .k{
-    font-family: 'Roboto';
-    font-style: italic;
+    font-family: 'Roboto' 'Comic Sans MS';
     font-size: 1.5em;
     display: inline-block;
     width:100px;
@@ -63,8 +60,7 @@ body{
 }
 
 .choice{
-    font-style: italic;
-    font-size: 2em;
+    font-size: 1.5em;
     width: 33vw;
     margin: 20px;
     padding: 10px;
@@ -72,7 +68,7 @@ body{
     border-width: 2px;
     border-color: orange;
     color: orange;
-    border-radius: 10px;
+    border-radius: 5px;
     display: inline-block;
 }
 
@@ -86,7 +82,6 @@ body{
 
 .Coin{
     font-family: 'Roboto';
-    font-style: italic;
     font-size: 1.3em;
     display: inline-block;
     width:100px;
@@ -120,7 +115,6 @@ body{
 
 .Coins{
     font-family: 'Roboto';
-    font-style: italic;
     font-size: 1.3em;
     display: inline-block;
     width:100px;
@@ -171,7 +165,6 @@ body{
 
 #continue{
     font-family: 'Roboto';
-    font-style: italic;
     font-size: 1.3em;
     display: inline-block;
     width:100px;
@@ -192,7 +185,6 @@ body{
 
 .NG{
     font-family: 'Roboto';
-    font-style: italic;
     font-size: 1.3em;
     display: inline-block;
     width:100px;
@@ -221,6 +213,7 @@ body{
     height: 50vh;
     width: 100%;
     clip-path: polygon(100% 0, 100% 79%, 0 100%, 0 100%, 0 0);
+    font-weight: 400;
 }
 h1{
     display: inline-block;

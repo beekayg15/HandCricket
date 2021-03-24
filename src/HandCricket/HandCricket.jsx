@@ -284,36 +284,40 @@ export default class HandCricket extends React.Component
             <div id="surface">
                 <div id="head"><h1>Digital Hand Cricket</h1></div>
                 <div id="toss">
-                <h1>Let's Play</h1>
+                <h2>Let's Play</h2>
                 <br></br>
                 <button className="Coins" onClick={()=>this.toss(0)}>H</button>
                 <button className="Coins" onClick={()=>this.toss(1)}>T</button>
                 </div>
                 <div id="startgame">
-                <h1>YOU HAVE WON THE TOSS</h1>
+                <h2>YOU HAVE WON THE TOSS</h2>
                 <br></br>
                 <button className="Coin" onClick={()=>this.bob(0)}>Bat</button>
                 <button className="Coin" onClick={()=>this.bob(1)}>Bowl</button>
                 </div>
                 <div id="startgamebat">
-                <h1>THE COMPUTER HAS WON THE TOSS AND ELECTED TO BAT</h1>
+                <br></br>
+                <h2>THE COMPUTER HAS WON THE TOSS AND ELECTED TO BAT</h2>
                 <br></br>
                 <button className="Coin" onClick={()=>this.bob(1)}>GO</button>
                 </div>
                 <div id="startgamebowl">
-                <h1>THE COMPUTER HAS WON THE TOSS AND ELECTED TO BOWL</h1>
+                <br></br>
+                <h2>THE COMPUTER HAS WON THE TOSS AND ELECTED TO BOWL</h2>
                 <br></br>
                 <button className="Coin" onClick={()=>this.bob(0)}>GO</button>
                 </div>
                 <div id="gamePlay">
-                <div className="p">YOU<br></br>{player[0]}</div>
-                <div className="p">COMPUTER<br></br>{comp[0]}</div>
+                <br></br>
+                <div className="p">YOU<br></br><br></br>{player[0]}</div>
+                <div className="p">COMPUTER<br></br><br></br>{comp[0]}</div>
+                <br></br>
+                <br></br>
                 <br></br>
                 <div id="status">Status : </div>
                 <br></br>
-                <br></br>
-                <div id="defend">COMPUTER NEEDS {player[0]-comp[0]+1} RUNS TO WIN</div>
-                <div id="chase">YOU NEED {comp[0]-player[0]+1} RUNS TO WIN</div>
+                <div id="defend"><br></br>COMPUTER NEEDS {player[0]-comp[0]+1} RUNS TO WIN<br></br><br></br></div>
+                <div id="chase"><br></br>YOU NEED {comp[0]-player[0]+1} RUNS TO WIN<br></br><br></br></div>
                 <br></br>
                 <button className="k" onClick={()=>this.chose(1)}>1</button>
                 <button className="k" onClick={()=>this.chose(2)}>2</button>
@@ -323,8 +327,8 @@ export default class HandCricket extends React.Component
                 <button className="k" onClick={()=>this.chose(6)}>6</button>
                 <br></br>
                 <br></br>
-                <div className="choice">YOU HAVE CHOSE<br></br><div id="a">0</div></div>
-                <div className="choice">COMPUTER HAS CHOSE<br></br><div id="b">0</div></div>
+                <div className="choice">YOU HAVE CHOSE<br></br><br></br><div id="a">0</div></div>
+                <div className="choice">COMPUTER HAS CHOSE<br></br><br></br><div id="b">0</div></div>
                 </div>
                 <div id="defendwin">
                 <br></br>
