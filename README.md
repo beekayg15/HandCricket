@@ -5,14 +5,14 @@ An **interactive webpage** bringing to life, the digital version of the primitiv
 
 ## Tools and Languages Used :
 <p>
-<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg"/>
-<img width="48" height="48" hspace="10" src="https://cdn.worldvectorlogo.com/logos/html5-1.svg"/>
-<img width="48" height="48" hspace="10" src="https://cdn.worldvectorlogo.com/logos/css-5.svg"/>
-<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/javascript-2.svg"/>
-<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/react-2.svg"/>
-<img width="45" height="45" hspace="10" src="https://cdn.worldvectorlogo.com/logos/nodejs-2.svg"/>
-<img width="45" height="45" hspace="10" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"/>
-<img width="45" height="45" hspace="10" src="https://www.vectorlogo.zone/logos/github/github-icon.svg"/>
+<img width="45" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/6.svg"/>
+  <img width="37" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/7.png"/>
+  <img width="45" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/8.svg"/>
+  <img width="45" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/9.svg"/>
+  <img width="45" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/10.svg"/>
+  <img width="45" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/20.svg"/>
+  <img width="45" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/11.svg"/>
+  <img width="45" height="45" hspace="10" src="https://github.com/BarathKumarBK-15/BarathKumarBK-15/blob/main/icons/12.svg"/>
 </p>
 
 ## Download and Usage :
